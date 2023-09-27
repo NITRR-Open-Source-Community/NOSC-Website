@@ -17,9 +17,9 @@ body{
 }
 
 nav{
-    background-color: #058da8 !important;
+    background-color: #B4D3B2 !important;
 }
-.navbar-brand img{
+.navbar-brand img
   border-radius: 50%;
   width: 52px;
   height: 50px;
@@ -94,14 +94,14 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
 .card {
     border-radius: 20px;
     background: #eeeeee; 
-    box-shadow: 20px 20px 60px #48CAE4, -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #78b075, -20px -20px 60px #ffffff;
     border: none
 }
 
 .card img {
     border-radius: 50%;
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
-    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+    box-shadow: 20px 20px 60px #78b075, -20px -20px 60px #ffffff
 }
 
 .neo-button {
@@ -281,7 +281,7 @@ button {
   width: 100%;
   padding-top: 50px;
   color:#121414;
-  background-color:#48CAE4;
+  background-color:#78b075;
 }
 
 .footer h3 {
