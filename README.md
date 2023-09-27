@@ -19,7 +19,7 @@ At NOSC, we believe in the power of open source to drive positive change, and we
 
 ## What do we NOT do?
 
-- **Exclusivity:** We are an inclusive community that welcomes members from all backgrounds, and we do not discriminate based on gender, race, or any other factors.
+- **Exclusivity:** We are an inclusive community that welcomes members from all backgrounds, and we do not discriminate based on gender, race, or any other factors
 
 - **Commercial Projects:** We primarily focus on open source projects for educational, research, and community-driven purposes, rather than commercial ventures.
 
