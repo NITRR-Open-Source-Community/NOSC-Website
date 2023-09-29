@@ -9,20 +9,13 @@
 body{
     background-color: #CAF0F8;
 }
-
-.logo{
-    border-radius: 50%;
-    height: 51px;
-    width: 53px;
-}
-
 nav{
     background-color: #B4D3B2 !important;
 }
-.navbar-brand img
-  border-radius: 50%;
-  width: 52px;
-  height: 50px;
+.navbar-brand img.logo {
+  border-radius: 0px;
+  width: 145px;
+  height: 59px;
 }
 .navbar-heading p{
 font-size: 30px;
