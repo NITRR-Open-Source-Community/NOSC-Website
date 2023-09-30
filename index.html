@@ -1,376 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/57b10b301b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <title>NOSC</title>
-  </head>
-  <body>
-    <script
-      src="https://kit.fontawesome.com/14f5cf4f5a.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.0/dist/sweetalert2.all.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <nav class="navbar navbar-expand-lg" id="nav">
-        <a class="navbar-brand" href="/">
-            <img src="./logo.jpeg" alt="NOSC's logo"class="logo"/>
-        </a>
-        <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          
-            <i class="fas fa-bars" id="hamburger_navbar"></i>
-         
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link nav_link" href="/">Home<span class="sr-only">(current)</span></a>
-            </li>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Know Our Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="achievements.html">Achievements</a>
-          </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
 
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/57b10b301b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet" />
+  <title>NOSC</title>
+</head>
+
+<body>
+  <script src="https://kit.fontawesome.com/14f5cf4f5a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.0/dist/sweetalert2.all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <a class="navbar-brand" href="/">
+      <img class="logo" src="./logo.jpeg" alt="NOSC's logo"  />
+    </a>
+    <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+
+      <i class="fas fa-bars" id="hamburger_navbar"></i>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link nav_link" href="/">Home<span class="sr-only">(current)</span></a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Know Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="achievements.html">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <div>
+    <h2 style="margin: 10px 40%">About Us</h2>
+    <div class="aim1 container d-flex justify-content-center">
+      <div class="row">
+        <div class="aim col-md-6" style="padding-top: 40px">
+          Our goal is to ensure that every student remains informed about the multitude of opportunities available to
+          them, including open source events, hackathons, internships, and more.
+
+          Moreover, we aspire to empower every student with new skills that they can proudly display on their resumes.
+          Our vision is to connect with and impact the lives of each and every student through this thriving community.
+        </div>
+        <div class="aim col-md-6">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rdsqlthv.json" background="#CAF0F8"
+            speed="1" style="width: 400px; height: 400px; vertical-align: middle;" loop autoplay></lottie-player>
+        </div>
+      </div>
+    </div>
+    <h3 style="margin: 0px 40%">But Why Us?</h3>
+    <div style="margin-top: 5%" class="aim2 container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-md-6">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_o18imdcr.json" background="#CAF0F8"
+            speed="1" style="width: 300px; height: 300px" loop autoplay></lottie-player>
+        </div>
+        <div class="aim col-md-6">
+          <ul>
+            <li>You'll gain acces to a wealth of complimentary resources, including:</li>
+            <li>Regular updates on upcoming events, hackathons, internships, and more.</li>
+            <li>Engaging webinars hosted by industry experts, offering guidance on trending skills and the latest
+              technlogies.</li>
+            <li>Frequent community meetings designed to address students' inquiries and concerns.</li>
+            <li>Opportunities to acquire new skills and bolster your resume.</li>
+            <li>Valuable insights on crafting a robust presence on Linkedn and Github, platforms often underestimated in
+              their impact.</li>
           </ul>
         </div>
-    </nav>
-    <div>
-      <h2 style="margin: 10px 40%">About Us</h2>
-      <div class="aim1 container d-flex justify-content-center">
-        <div class="row">
-          <div class="aim col-md-6" style="padding-top: 40px">
-            Our goal is to ensure that every student remains informed about the multitude of opportunities available to them, including open source events, hackathons, internships, and more. 
-
-            Moreover, we aspire to empower every student with new skills that they can proudly display on their resumes. Our vision is to connect with and impact the lives of each and every student through this thriving community.
-          </div>
-          <div class="aim col-md-6">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player
-              src="https://assets2.lottiefiles.com/packages/lf20_rdsqlthv.json"
-              background="#CAF0F8"
-              speed="1"
-              style="width: 400px; height: 400px; vertical-align: middle;"
-              loop
-              autoplay
-            ></lottie-player>
-          </div>
-        </div>
-      </div>
-      <h3 style="margin: 0px 40%">But Why Us?</h3>
-      <div
-        style="margin-top: 5%"
-        class="aim2 container d-flex justify-content-center"
-      >
-        <div class="row">
-          <div class="col-md-6">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player
-              src="https://assets2.lottiefiles.com/packages/lf20_o18imdcr.json"
-              background="#CAF0F8"
-              speed="1"
-              style="width: 300px; height: 300px"
-              loop
-              autoplay
-            ></lottie-player>
-          </div>
-          <div class="aim col-md-6">
-            <ul>
-              <li>You'll gain acces to a wealth of complimentary resources, including:</li>
-    <li>Regular updates on upcoming events, hackathons, internships, and more.</li>
-    <li>Engaging webinars hosted by industry experts, offering guidance on trending skills and the latest technlogies.</li>
-    <li>Frequent community meetings designed to address students' inquiries and concerns.</li>
-    <li>Opportunities to acquire new skills and bolster your resume.</li>
-    <li>Valuable insights on crafting a robust presence on Linkedn and Github, platforms often underestimated in their impact.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="aim1 container d-flex justify-content-center">
-        <div class="row">
-          <div class="aim col-md-6" style="padding-top: 100px">
-            What do we have to pay ? <br />
-            <strong>Nothing!!!!</strong> Simply invest some time, and that will be suficient. Remember, it's a community by the students, for the students, and of the students.
-        </div>        
-          <div class="aim col-md-6">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player
-              src="https://assets9.lottiefiles.com/packages/lf20_rteh1dq1.json"
-              background="#CAF0F8"
-              speed="1"
-              style="width: 400px; height: 400px"
-              loop
-              autoplay
-            ></lottie-player>
-          </div>
-        </div>
       </div>
     </div>
-
-    <div class="myteam container d-flex justify-content-center">
+    <div class="aim1 container d-flex justify-content-center">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card p-3 py-4 mt-5 mb-5">
-            <div class="text-center">
-              <img src="https://media.licdn.com/dms/image/D4D03AQGUs-4arQTPPg/profile-displayphoto-shrink_800_800/0/1693073851978?e=1701302400&v=beta&t=GAZ7H0pvhv0N2LlvW0Zl-Uq-hIHy7UZ8I6FgBSp0EyI" alt="abhinav's profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">Abhinav Srinivas</h3>
-              <span class="mt-1 clearfix">Founder</span>
-              <small class="mt-4"
-                >Frontend Developer and Avid Quizzer</small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="abhinav's twitter handle">
-                  <a href="https://twitter.com/nown1ne"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="abhinav's linkedin handle">
-                  <a href="https://www.linkedin.com/in/abhinav-srinivas/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="abhinav's instagram handle">
-                  <a href="https://www.instagram.com/abhinav__srinivas/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="abhinav's github handle">
-                  <a href="https://github.com/nown1ne"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="aim col-md-6" style="padding-top: 100px">
+          What do we have to pay ? <br />
+          <strong>Nothing!!!!</strong> Simply invest some time, and that will be suficient. Remember, it's a community
+          by the students, for the students, and of the students.
         </div>
-        <div class="col-md-4">
-          <div class="card p-3 py-4 mt-5">
-            <div class="text-center">
-              <img src="https://media.licdn.com/dms/image/D4D03AQGUtwO-Vt8vFw/profile-displayphoto-shrink_800_800/0/1678087050291?e=1701302400&v=beta&t=DmdbUMniIU32VzCEngX2K-0cmL6pK87Qe5xNTt8JJZU" alt="ishaan's profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">Ishaan Adarsh</h3>
-              <span class="mt-1 clearfix">Founder</span>
-              <small class="mt-4">
-                Hello There </small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="ishaan's twitter handle">
-                  <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="ishaan's linkedin handle">
-                  <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="ishaan's instagram handle">
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="ishaan's github handle">
-                  <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card p-3 py-4 mt-5">
-            <div class="text-center">
-              <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">   </h3>
-              <span class="mt-1 clearfix"> - </span>
-              <small class="mt-4"
-                > -----</small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="'s twitter handle">
-                  <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s linkedin handle">
-                  <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s instagram handle">
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s github handle">
-                  <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card p-3 py-4 mt-5">
-            <div class="text-center">
-              <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">   </h3>
-              <span class="mt-1 clearfix"> - </span>
-              <small class="mt-4"
-                > -----</small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="'s twitter handle">
-                  <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s linkedin handle">
-                  <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s instagram handle">
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s github handle">
-                  <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div><div class="col-md-4">
-          <div class="card p-3 py-4 mt-5">
-            <div class="text-center">
-              <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">   </h3>
-              <span class="mt-1 clearfix"> - </span>
-              <small class="mt-4"
-                > -----</small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="'s twitter handle">
-                  <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s linkedin handle">
-                  <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s instagram handle">
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s github handle">
-                  <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div><div class="col-md-4">
-          <div class="card p-3 py-4 mt-5">
-            <div class="text-center">
-              <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
-              <h3 class="mt-2">   </h3>
-              <span class="mt-1 clearfix"> - </span>
-              <small class="mt-4"
-                > -----</small
-              >
-              <div class="social-buttons mt-5">
-                <button class="neo-button" aria-label="'s twitter handle">
-                  <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s linkedin handle">
-                  <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s instagram handle">
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                </button>
-                <button class="neo-button" aria-label="'s github handle">
-                  <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="aim col-md-6">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_rteh1dq1.json" background="#CAF0F8"
+            speed="1" style="width: 400px; height: 400px" loop autoplay></lottie-player>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <!--footer-->
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-5 col-sm-12 pb-3 item">
-              <h3>Useful Links</h3>
-              <ul>
-                <li style="font-weight: bold;"><a href="#">Add links</a></li>
-                <li style="font-weight: bold;"><a href="#">to various</a></li>
-                <li style="font-weight: bold;"><a href="#">hackathons &</a></li>
-                <li style="font-weight: bold;"><a href="#">open soure projects</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-5 col-sm-12 item text">
-              <h3>About Us</h3>
-              <p style="font-weight:bold;">
-                A community for the students, by the students, and of the
-                students! We’re here to provide you with all the resources
-                you’ll require in your jorney, and mentor you to become the
-                best of the best.
-              </p>
-            </div>
-            <div class="col-4 py-2 item social">
-              <a href="#" class="ic"> <i class="icon ion-social-facebook"> </i></a>
-              <a href="#"class="ic"> <i class="icon ion-social-twitter"> </i></a>
-              <a href="#" class="ic"> <i class="icon ion-social-snapchat"> </i></a>
-              <a href="#" class="ic"> <i class="icon ion-social-instagram"> </i></a>
-            </div>
-          </div>
+  </div>
 
-          <div>
-            <div class="col item social">
-              <a href="#" aria-label="NOSC's facebook handle"> <i class="icon ion-social-facebook"></i></a
-              ><a href="#" aria-label="NOSC's twitter handle"> <i class="icon ion-social-twitter"></i></a
-              ><a href="#" aria-label="NOSC's snapchat handle"> <i class="icon ion-social-snapchat"></i></a
-              ><a href="#" aria-label="NOSC's instagram handle"> <i class="icon ion-social-instagram"></i></a>
+  <div class="myteam container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5 mb-5">
+          <div class="text-center">
+            <img
+              src="https://media.licdn.com/dms/image/D4D03AQGUs-4arQTPPg/profile-displayphoto-shrink_800_800/0/1693073851978?e=1701302400&v=beta&t=GAZ7H0pvhv0N2LlvW0Zl-Uq-hIHy7UZ8I6FgBSp0EyI"
+              alt="abhinav's profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2">Abhinav Srinivas</h3>
+            <span class="mt-1 clearfix">Founder</span>
+            <small class="mt-4">Frontend Developer and Avid Quizzer</small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="abhinav's twitter handle">
+                <a href="https://twitter.com/nown1ne"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="abhinav's linkedin handle">
+                <a href="https://www.linkedin.com/in/abhinav-srinivas/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="abhinav's instagram handle">
+                <a href="https://www.instagram.com/abhinav__srinivas/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="abhinav's github handle">
+                <a href="https://github.com/nown1ne"> <i class="fa-brands fa-github"></i></a>
+              </button>
             </div>
           </div>
-
-          <div class="wrapper divtype">
-            <label for="email-input" class="sr-only">Email Input</label>
-            <input id="email-input" placeholder="Type your email ..." />
-            <span> Subscribe </span>
-          </div>
-          <div style="padding-left: 46%">
-            <button style="font-weight: bold;" class="button-for-footer">Submit</button>
-          </div>
-          <p class="copyright">NOSC © 2023</p>
         </div>
-      </footer>
-    <script src="index.js"></script>
-  </body>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5">
+          <div class="text-center">
+            <img
+              src="https://media.licdn.com/dms/image/D4D03AQGUtwO-Vt8vFw/profile-displayphoto-shrink_800_800/0/1678087050291?e=1701302400&v=beta&t=DmdbUMniIU32VzCEngX2K-0cmL6pK87Qe5xNTt8JJZU"
+              alt="ishaan's profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2">Ishaan Adarsh</h3>
+            <span class="mt-1 clearfix">Founder</span>
+            <small class="mt-4">
+              Hello There </small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="ishaan's twitter handle">
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="ishaan's linkedin handle">
+                <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="ishaan's instagram handle">
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="ishaan's github handle">
+                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5">
+          <div class="text-center">
+            <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2"> </h3>
+            <span class="mt-1 clearfix"> - </span>
+            <small class="mt-4"> -----</small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="'s twitter handle">
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s linkedin handle">
+                <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s instagram handle">
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s github handle">
+                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5">
+          <div class="text-center">
+            <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2"> </h3>
+            <span class="mt-1 clearfix"> - </span>
+            <small class="mt-4"> -----</small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="'s twitter handle">
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s linkedin handle">
+                <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s instagram handle">
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s github handle">
+                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5">
+          <div class="text-center">
+            <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2"> </h3>
+            <span class="mt-1 clearfix"> - </span>
+            <small class="mt-4"> -----</small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="'s twitter handle">
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s linkedin handle">
+                <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s instagram handle">
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s github handle">
+                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 py-4 mt-5">
+          <div class="text-center">
+            <img src="./" alt="'s profile icon" width="100" class="rounded-circle" />
+            <h3 class="mt-2"> </h3>
+            <span class="mt-1 clearfix"> - </span>
+            <small class="mt-4"> -----</small>
+            <div class="social-buttons mt-5">
+              <button class="neo-button" aria-label="'s twitter handle">
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s linkedin handle">
+                <a href="https://www.linkedin.com/in/"> <i class="fa-brands fa-linkedin-in"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s instagram handle">
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button class="neo-button" aria-label="'s github handle">
+                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br />
+  <br />
+  <!--footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 col-sm-12 pb-3 item">
+          <h3>Useful Links</h3>
+          <ul>
+            <li style="font-weight: bold;"><a href="#">Add links</a></li>
+            <li style="font-weight: bold;"><a href="#">to various</a></li>
+            <li style="font-weight: bold;"><a href="#">hackathons &</a></li>
+            <li style="font-weight: bold;"><a href="#">open soure projects</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12 item text">
+          <h3>About Us</h3>
+          <p style="font-weight:bold;">
+            A community for the students, by the students, and of the
+            students! We’re here to provide you with all the resources
+            you’ll require in your jorney, and mentor you to become the
+            best of the best.
+          </p>
+        </div>
+        <div class="col-4 py-2 item social">
+          <a href="#" class="ic"> <i class="icon ion-social-facebook"> </i></a>
+          <a href="#" class="ic"> <i class="icon ion-social-twitter"> </i></a>
+          <a href="#" class="ic"> <i class="icon ion-social-snapchat"> </i></a>
+          <a href="#" class="ic"> <i class="icon ion-social-instagram"> </i></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="col item social">
+          <a href="#" aria-label="NOSC's facebook handle"> <i class="icon ion-social-facebook"></i></a><a href="#"
+            aria-label="NOSC's twitter handle"> <i class="icon ion-social-twitter"></i></a><a href="#"
+            aria-label="NOSC's snapchat handle"> <i class="icon ion-social-snapchat"></i></a><a href="#"
+            aria-label="NOSC's instagram handle"> <i class="icon ion-social-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="wrapper divtype">
+        <label for="email-input" class="sr-only">Email Input</label>
+        <input id="email-input" placeholder="Type your email ..." />
+        <span> Subscribe </span>
+      </div>
+      <div style="padding-left: 46%">
+        <button style="font-weight: bold;" class="button-for-footer">Submit</button>
+      </div>
+      <p class="copyright">NOSC © 2023</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>
