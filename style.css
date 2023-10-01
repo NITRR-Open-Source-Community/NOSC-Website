@@ -313,6 +313,10 @@ h1 {
 p {
   margin-bottom: 20px;
 }
+#butwhy{
+  font-size:30px;
+  margin: 0px 40%;
+}
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     header {
@@ -324,6 +328,9 @@ p {
     .sub-heading {
         
         font-size: x-large;
+    }
+    #butwhy{
+      font-size: 20px;
     }
 }
 
