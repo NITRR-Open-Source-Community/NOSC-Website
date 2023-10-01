@@ -127,7 +127,22 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
     background: linear-gradient(145deg, #d5cccc, #ffffff); */
     box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
 }
-.neo-button:active {
+.f-neo-button {
+  width: 30px;
+  height: 30px;
+  outline: 0 !important;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  margin-right: 13px;
+  border-radius: 50%;
+  /* background-color: #e4dddd; */
+  background: linear-gradient(145deg, #d5cccc, #ffffff);
+  /* background-color: white;
+  background: linear-gradient(145deg, #d5cccc, #ffffff); */
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+.neo-button:active,.f-neo-button:active {
     border-radius: 50%;
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
     box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
@@ -141,24 +156,24 @@ button {
     color: #55acee
 }
 
-.neo-button:hover, .neo-button:hover .fa-brands {
+.neo-button:hover,.f-neo-button:hover,.f-neo-button:hover .fa-brands ,.neo-button:hover .fa-brands {
     transition: 0.7s;
     color: white;
 }
 
-.neo-button:nth-child(1):hover {
+.neo-button:nth-child(1):hover,.f-neo-button:nth-child(1):hover {
     background: #1DA1F2;
 }
 
-.neo-button:nth-child(2):hover {
+.neo-button:nth-child(2):hover,.f-neo-button:nth-child(2):hover {
     background: #0A66C2;
 }
 
-.neo-button:nth-child(3):hover {
+.neo-button:nth-child(3):hover,.f-neo-button:nth-child(3):hover {
     background: #f435b7;
 }
 
-.neo-button:nth-child(4):hover {
+.neo-button:nth-child(4):hover,.f-neo-button:nth-child(4):hover {
     background: #333;
 }
 
@@ -253,7 +268,7 @@ button {
       color: #fff;
     }
     .f-social-icons .fab{
-      width: 40px;
+      width: 80px;
       height: 40px;
       border-radius: 50%;
       text-align: center;
