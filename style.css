@@ -286,3 +286,42 @@ button {
 }
 
 /* Media query footer ends*/
+
+/* Privacy page */
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1; 
+}
+header {
+  
+  color: #161515;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+}
+.container {
+  padding: 20px;
+}
+p {
+  margin-bottom: 20px;
+}
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+   .main-heading {
+        font-size: xx-large;
+    }
+    .sub-heading {
+        
+        font-size: x-large;
+    }
+}
+
+/* Privacy page */
