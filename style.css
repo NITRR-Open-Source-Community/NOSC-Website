@@ -11,6 +11,20 @@ body{
     /* position: relative; */
 }
 
+body::-webkit-scrollbar {
+  width: 14px;
+}
+body::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #CAF0F8 35%, #9ee79a);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    rgba(10, 10, 20, 0.792),
+    rgb(77, 115, 230, 1.931)
+  );
+  border-radius: 20px;
+}
+
 .body-head{
   position: relative;
 }
