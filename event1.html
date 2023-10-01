@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event 1</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/57b10b301b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./event1.css">
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" id="nav" style="width: 100%;">
+        <a class="navbar-brand" href="/">
+            <img src="./logo.jpeg" alt="NOSC's logo" class="logo" />
+        </a>
+        <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+            aria-label="Toggle navigation">
+
+            <i class="fas fa-bars" id="hamburger_navbar"></i>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link nav_link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="know-our-team-link">Know Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="flex flex-column">
+        <h1 class="m-4 text-center text-primary">Event Details</h1>
+        <div style="display: flex;" id="sections" class="m-4 border rounded shadow">
+            <div class="left px-2 py-2">
+
+                <h3 class="m-4 text-center fw-bold">Event Name</h3>
+                <div style="display: flex;" id="halves">
+                    <div class="first align-items-center">
+                        <p class="text-left mx-5 my-4"><i class="px-3 fa-regular fa-calendar fa-2xl"
+                                style="color: #3ea8ea;"></i>15 October 2023</p>
+                        <p class="text-left mx-5 my-4"><i class="px-3 fa-regular fa-clock fa-2xl"
+                                style="color: #3ea8ea;"></i>10:10 am (IST)</p>
+                        <p class="text-left mx-5 my-4"><i class="px-3 fa-solid fa-location-dot fa-2xl"
+                                style="color: #3ea8ea;"></i>NIT Raipur</p>
+                    </div>
+                    <div class="second justify-content-center align-items-center">
+                        <img style="width: 100%;"
+                            src="https://media.geeksforgeeks.org/wp-content/uploads/20200916112953/HowtoGetStartedWithOpenSourceContribution.png"
+                            alt="event-img">
+                    </div>
+                </div>
+                <h3 class="m-4 text-center fw-bold">Event Description</h3>
+                <p class="m-4 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus
+                    incidunt. Qui dolorem harum asperiores quasi maiores architecto, eligendi necessitatibus
+                    perspiciatis eius deleniti voluptatibus itaque officiis enim impedit in modi numquam rem sed aliquam
+                    officia delectus porro? Adipisci consequatur aliquam officiis! Vitae velit reprehenderit, quam
+                    perspiciatis itaque tempore id. Sit.</p>
+                <button class="m-4 align-self-center px-3 py-2 text-white rounded border-0">Register</button>
+            </div>
+
+
+            <div id="separator" style="border:1px solid rgb(214, 214, 214);" class="my-4 rounded"></div>
+            
+            
+            <div style="display: flex;"
+                class="flex-column right justify-content-center align-items-center px-2 py-2">
+                <img style="height: 11rem; width: 11rem; border-radius: 50%;"
+                    class="border border-white border-5 shadow"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8IVSzJJRYyxTfrE-z5z_JvXcB7h_oPz_Yg&usqp=CAU"
+                    alt="speaker-img">
+                <h3 class="m-4 text-center fw-bold">Speaker Name</h3>
+                <p class="text-left">Details about Speaker</p>
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit distinctio ullam
+                    officiis at, molestias eos in illum aperiam corrupti quibusdam incidunt</p>
+                <h3 class="m-4 text-center fw-bold">Contact</h3>
+                <div style="display: flex;" class="mb-4 speaker-contact flex-row"><a href="https://www.linkedin.com/"><i
+                            class="fa-brands p-2 fa-linkedin fa-2xl"></i></a><a href="https://www.youtube.com/"><i
+                            class="fa-brands p-2 fa-youtube fa-2xl"></i></a><a href="https://www.facebook.com/"><i
+                            class="fa-brands p-2 fa-facebook fa-2xl"></i></a><a href="https://www.x.com/"><i
+                            class="fa-brands fa-x-twitter fa-2xl p-2"></i></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/14f5cf4f5a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.0/dist/sweetalert2.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

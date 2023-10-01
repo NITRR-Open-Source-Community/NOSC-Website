@@ -1,0 +1,34 @@
+@media only screen and (max-width: 760px){
+    #sections{
+        flex-direction: column;
+    }
+    #halves{
+        flex-direction: column-reverse;
+    }
+    #separator{
+        border: 0;
+    }
+    .left,.right,.first,.second{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 761px){
+    #sections{
+        flex-direction: row;
+    }
+    #halves{
+        flex-direction: row;
+    }
+    #separator{
+        border: 1px;
+    }
+    .first,.second{
+        width: 50%;
+    }
+    .left{
+        width: 75%;
+    }
+    .right{
+        width: 25%;
+    }
+}
