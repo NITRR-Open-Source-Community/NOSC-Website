@@ -68,7 +68,42 @@
             max-height: 70ch;
             overflow-y: scroll;
         }
-        
+        .PastEvents {
+            background-color: white;
+            font-size: 20px;
+            border: 1px solid lightgray;
+            padding: 17px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-height: 30ch;
+            overflow-y: scroll; 
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+           
+            border-radius: 5px;
+
+        }
+
+        .PastEvents h1{
+            font-size: x-large;
+        }
+
+         .PastEvents h2 {
+           font-size: 24px;
+         }
+
+         .PastEvents ul{
+            list-style-type:square;
+            padding-top: 0ch;
+         }
+         .PastEvents li{
+            padding-top: 0.8ch;
+         }
+         .PastEvents a{
+            color: black;
+            text-decoration: none;
+         }
         
     </style>
 </head>
@@ -162,6 +197,22 @@
                 <a href="#">More Details</a>
             </div>
         </div>
+        <div class="PastEvents">
+            <h1>Past Events</h1>
+            <div class="event-list">
+            <select id="filter">
+                <option value="All">All</option>
+                <option value="speaker-session">Speaker Session</option>
+                <option value="Coding Fest">Coding Fest</option>
+                <option value="Hackathon">Hackathon</option>
+              </select>
+            <ul id="event-list"></ul>
+            </div>
+           
+          </div>
+          
     </div>
+
+    <script src="past-events.js"></script>
 </body>
 </html>
