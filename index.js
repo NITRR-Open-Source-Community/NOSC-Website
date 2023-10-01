@@ -1,10 +1,23 @@
 const hamNav = document.getElementById('hamburger_navbar');
 const nav = document.getElementById('nav');
-
+const contentNav = document.getElementById('navbarSupportedContent');
+const items = document.querySelectorAll('.nav-item');
+let i = 0;
 console.log(nav);
 
 hamNav.addEventListener('click', (e) => {
-    nav.style.height = "12.3rem";
+  if (i%2==0) {
+    nav.style.height = "auto";
+    for (var x = 0; x < items.length; x++){
+      items[x].style.display = 'block';}
+  }
+  else{
+    nav.style.height = "4.3rem";
+    for (var x = 0; x < items.length; x++){
+      items[x].style.display = 'none';}
+  }
+  i++;
+  console.log(i);
 })
 
 const knowOurTeamLink = document.getElementById("know-our-team-link");
