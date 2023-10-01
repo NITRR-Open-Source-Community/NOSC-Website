@@ -313,6 +313,7 @@ p {
   margin-bottom: 20px;
 }
 #butwhy{
+  font-size:30px;
   margin: 0px 40%;
 }
   /* Responsive Styles */
@@ -328,7 +329,7 @@ p {
         font-size: x-large;
     }
     #butwhy{
-      font-size: 15px;
+      font-size: 20px;
     }
 }
 
