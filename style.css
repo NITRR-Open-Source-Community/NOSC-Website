@@ -19,7 +19,7 @@ body{
 nav{
     background-color: #B4D3B2 !important;
 }
-.navbar-brand img
+.navbar-brand img{
   border-radius: 50%;
   width: 52px;
   height: 50px;
