@@ -1,4 +1,7 @@
 # NITRR Open Source Community (NOSC)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
     <img src="https://github.com/NITRR-Open-Source-Community/.github/assets/100434702/92cf88fb-fe82-4cb9-914e-3a0c325d590a" alt="ezmail" width="500"/>
@@ -166,3 +169,25 @@ cd NOSC-Website
 </div>
 
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/the-amazing-atharva"><img src="https://avatars.githubusercontent.com/u/121221252?v=4?s=100" width="100px;" alt="Atharva Salitri"/><br /><sub><b>Atharva Salitri</b></sub></a><br /><a href="https://github.com/NITRR-Open-Source-Community/NOSC-Website/commits?author=the-amazing-atharva" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
