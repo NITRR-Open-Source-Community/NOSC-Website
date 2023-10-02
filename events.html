@@ -145,19 +145,26 @@
         
         <h1>Events</h1>
         <div class="events">
-            <div class="event">
+            <div class="event" id="event1" data-event-name="First Event on Open Source" data-event-date="October 15, 2023">
                 <h2>First Event on Open Source</h2>
                 <p>Date: October 15, 2023</p>
                 <p>Description: This is the first event on open source. Join us for an informative session.</p>
+                <button class="custom-button subscribe-button" onclick="subscribeToEvent('event1')">Subscribe</button>
+                <button class="custom-button unsubscribe-button" onclick="unsubscribeFromEvent('event1')">Unsubscribe</button>
                 <a href="/event1.html">More Details</a>
             </div>
-            <div class="event">
+            <div class="event" id="event2" data-event-name="Linux Install Fest" data-event-date="November 5, 2023">
                 <h2>Linux Install Fest</h2>
                 <p>Date: November 5, 2023</p>
                 <p>Description: Get hands-on experience with Linux at our Install Fest event.</p>
+                <button class="custom-button subscribe-button" onclick="subscribeToEvent('event2')">Subscribe</button>
+                <button class="custom-button unsubscribe-button" onclick="unsubscribeFromEvent('event2')">Unsubscribe</button>
                 <a href="#">More Details</a>
             </div>
         </div>
+        <div id="notification-container" style="display: none; "> 
+            <div class="notification-reminder">Reminder</div>
+         </div>
         <div class="upcoming-events">
             <h1>Upcoming Events</h1>
             <div class="event">
