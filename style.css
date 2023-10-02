@@ -29,7 +29,6 @@ body::-webkit-scrollbar-track {
   position: relative;
 }
 .logo{
-    border-radius: 50%;
     height: 51px;
     width: 53px;
 }
@@ -38,7 +37,6 @@ nav{
   background: linear-gradient(to right, #CAF0F8 35%, #9ee79a) !important;
 }
 .navbar-brand img{
-  border-radius: 50%;
   width: 148px;
   height: 52px;
   margin-left: 20px;
@@ -55,7 +53,7 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
   font-size: 20px;
   color: black !important ;
   margin-right: 9px;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 1000;
   padding: 12px;
   border-radius: 50px;
@@ -206,7 +204,7 @@ button {
 
 /* Styling footer starts */
     #nav{
-      height: 4rem;
+      height: 5rem;
     }
 
     .footer{
@@ -246,11 +244,17 @@ button {
     }
     ul li{
       list-style: none;
-      margin-bottom: 12px;
+      margin-left: 8px;
+      padding:0px 10px;
+      padding-right: 5px;
+      border-right: 1px solid white;
     }
     ul li a{
       text-decoration: none;
       color: #023E8A;
+    }
+    li:last-child{
+      border-right: none;
     }
     .f-form{
       padding-bottom: 15px;
