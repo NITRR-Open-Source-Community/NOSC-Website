@@ -90,31 +90,32 @@ input[type=submit]:hover{
     </style>
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg" id="nav" style="width: 100%;">
-        <a class="navbar-brand" href="/">
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <a class="navbar-brand" href="index.html">
             <img src="./logo.jpeg" alt="NOSC's logo"class="logo"/>
         </a>
-        <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           
             <i class="fas fa-bars" id="hamburger_navbar"></i>
          
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link nav_link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html" id="know-our-team-link">Know Our Team</a>
+                <a class="nav-link" href="index.html#myteam-section">Know Our Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="achievements.html">Events</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="policy.html">Privacy & Policy</a>
-        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="policy.html">Privacy & Policy</a>
+
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
@@ -122,51 +123,50 @@ input[type=submit]:hover{
           </ul>
         </div>
     </nav>
-    <div class="contact">
-        <h1>Contact Us</h1>
-    </div>
-    <div class="container">
-        <div class="chat-box">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="fname" placeholder="Your First Name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lname" placeholder="Your Last Name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email</label>
-                </div>
-                <div class="col-75">
-                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                  <label for="feedback">Message/Suggestion</label>
-                </div>
-                <div class="col-75">
-                  <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-
+      <div>
+        <div class="contact">
+            <h1>Contact Us</h1>
         </div>
-       
-        
+        <div class="container">
+            <div class="chat-box">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="fname" placeholder="Your First Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lname" placeholder="Your Last Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                    <label for="feedback">Message/Suggestion</label>
+                    </div>
+                    <div class="col-75">
+                    <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
     </div>
-     
+    <script src="index.js"></script>
 </body>
 </html>

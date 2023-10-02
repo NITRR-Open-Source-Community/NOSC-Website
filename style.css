@@ -318,6 +318,9 @@ button {
  .f-col{
   flex-basis: 100%;
  }
+ .nav-item {
+  display: none;
+ }
 }
 
 /* Media query footer ends*/
