@@ -366,3 +366,39 @@ p {
 /* Privacy page */
 
 
+/* Project Maintainers,Admins Contributors Section*/
+.Admins {
+  text-align: center;
+  padding: 20px;
+}
+
+.Admins h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  text-align: center;
+  margin: 10px 100px; 
+}
+
+.user img {
+  max-width: 150px;
+  border-radius: 50%; 
+  margin: 20px 0 20px; 
+}
+
+.user p {
+  font-weight: bold;
+  margin: 0; 
+}
+
+.user img:hover {
+  box-shadow: 0 0 50px #78b075; 
+}
