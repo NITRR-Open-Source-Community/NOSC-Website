@@ -33,6 +33,18 @@ body::-webkit-scrollbar-track {
     width: 53px;
 }
 
+/* Logo hover effect */
+@keyframes elastic {
+  0% { transform: rotate(15deg) translate(10%, 0); } 
+  50% { transform: rotate(-9deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.navbar-brand:hover img {
+  animation: elastic 1.5s ease forwards;
+}
+/* Logo hover effect ends  */
+
 nav{
   background: linear-gradient(to right, #CAF0F8 35%, #9ee79a) !important;
 }
