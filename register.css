@@ -1,0 +1,48 @@
+.reg-btn{
+    position: fixed;
+    right: 20px;
+    margin-top: 20px;
+    color: blue;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+    border: 2px solid skyblue;
+}
+.register-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./DevelopersPic.jpg');
+    height: 90vh;
+    overflow: hidden;
+    width: 100vw;
+    background-size: cover;
+}
+.reg-box{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 15%;
+    top: 15%;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+.reg-box div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.reg-box input{
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.reg-box button{
+    margin-top: 20px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
