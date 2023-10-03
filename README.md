@@ -164,7 +164,7 @@ cd NOSC-Website
 
 <div align="center">
     <a href="https://github.com/NITRR-Open-Source-Community/NOSC-Website/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=NITRR-Open-Source-Community/NOSC-Website" />
+    <img src="" />
     </a>
 </div>
 
