@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Feedback</title>
+        <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <style>
+        h1 {
+            background-color: rgb(196, 255, 208);
+            border-bottom: 14px solid #058da8; 
+            text-align: center; 
+            padding: 15px;
+            
+        }
+
+        body {
+            background-color: azure;
+            font-family: 'Source Sans Pro', sans-serif; 
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto; 
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="radio"],
+        
+      
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #058da8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #057a8f;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>EVENT FEEDBACK FORM😊😒😁</h1>
+    <form action="https://nosc.netlify.app/events" //method="POST">
+        <label for="event">Event Name:</label>
+        <input type="text" id="event" name="event" required>
+        
+        <p>How would you rate the event overall?</p>
+        <input type="radio" id="rating-excellent" name="rating" value="Excellent">
+        <label for="rating-excellent">Excellent</label><br>
+        <input type="radio" id="rating-good" name="rating" value="Good">
+        <label for="rating-good">Good</label><br>
+        <input type="radio" id="rating-average" name="rating" value="Average">
+        <label for="rating-average">Average</label><br>
+        <input type="radio" id="rating-poor" name="rating" value="Poor">
+        <label for="rating-poor">Poor</label><br>
+        
+        <p>What did you like most about the event?</p>
+        <textarea id="liked-most" name="liked-most" rows="4" cols="50" required></textarea>
+        
+        <p>What suggestions do you have for improvement?</p>
+        <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+        
+        <input type="submit" value="Submit" href="">
+    </form>
+    <script>
+        document.getElementById("feedback-form").addEventListener("submit", function (e) {
+            e.preventDefault(); 
+            if (
+                document.getElementById("event").value &&
+                document.querySelector('input[name="rating"]:checked') &&
+                document.getElementById("liked-most").value
+            ) {
+                
+                alert("Feedback submitted successfully!");
+                
+                window.location.href = "https://nosc.netlify.app/events";
+            } else {
+                alert("Please fill in all required fields.");
+            }
+        });
+    </script>
+
+    </body>
+</html>

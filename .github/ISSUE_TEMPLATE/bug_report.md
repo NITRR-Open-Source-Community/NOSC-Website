@@ -15,7 +15,7 @@ Describe the difficulty
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
+1. Go to 'nosc.netlify.app'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
