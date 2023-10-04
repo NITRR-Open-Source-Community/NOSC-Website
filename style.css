@@ -85,6 +85,7 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
 .nav_link{
   color: #000;
   font-size: 1.1rem;
+  padding-left: 20px;
   transition: .2s ease-in-out;
 }
 
@@ -284,6 +285,9 @@ button {
   .custom-button {
     padding: 0.25em 0.75em;
   }
+  .nav-link {
+    padding-left: 8.2px !important;
+  }
 }
 
 .subscribe-button{
@@ -431,6 +435,9 @@ button {
  }
  .nav-item {
   display: none;
+ }
+ .nav-link {
+  padding-left: 20px !important;
  }
 }
 
