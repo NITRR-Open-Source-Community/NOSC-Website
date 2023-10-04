@@ -84,7 +84,7 @@ nav {
 }
 
 
-/* Navabr modified ends */
+/* Navbar modified ends */
 
 .myteam {
     display: grid;
@@ -100,6 +100,20 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+
+.left-align-text {
+    text-align: left;
+}
+
+.aim1.container,
+.aim2.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aim.col-md-6 {
+    padding: 20px;
 }
 
 .aim1 {
@@ -198,36 +212,34 @@ button {
 }
 
 
-/* Styling footer starts */
+/*Styling footer starts */
 
-#nav {
-    height: 4.3rem;
-    width: 100vw;
+height: 4.3rem;
+width: 100vw;
+
 }
-
 .footer .item.social {
     text-align: center;
 }
-
 @media (max-width:991px) {
     .footer .item.social {
         text-align: center;
         margin-top: 20px;
     }
 }
-
 @media (max-width: 502px) {
     h3 {
         margin: 0px 30%;
     }
+    
     div h2 {
         margin: 10px 36%;
     }
+    
     .aim {
         padding-top: 1px;
     }
 }
-
 .footer .item.social>a {
     font-size: 20px;
     width: 36px;
@@ -241,11 +253,9 @@ button {
     color: rgb(17, 18, 109);
     opacity: 0.75;
 }
-
 .footer .item.social>a:hover {
     opacity: 0.9;
 }
-
 .footer .copyright {
     text-align: center;
     padding-top: 24px;
@@ -253,11 +263,9 @@ button {
     font-size: 13px;
     margin-bottom: 0;
 }
-
 .wrapper {
     margin: 50px auto;
 }
-
 .divtype {
     position: relative;
     display: flex;
@@ -266,7 +274,6 @@ button {
     border-radius: 30px;
     background: #fff;
 }
-
 .divtype span {
     position: absolute;
     top: 5px;
@@ -282,7 +289,6 @@ button {
     transition: all 0.35s;
     letter-spacing: 1px;
 }
-
 .divtype input {
     flex: 1 1 auto;
     padding-left: 6.5rem;
@@ -294,7 +300,6 @@ button {
     text-indent: 0.625rem;
     transition: all 0.35s;
 }
-
 .sr-only {
     position: absolute;
     left: -10000px;
@@ -303,33 +308,27 @@ button {
     height: 1px;
     overflow: hidden;
 }
-
 .divtype input::placeholder {
     color: #9b9ba5;
 }
-
 .divtype input:focus {
     transform: translateX(-100px);
 }
-
 .divtype input:focus~span {
     transform: translateY(-30px);
 }
-
 .footer {
     width: 100%;
     padding-top: 50px;
     color: #121414;
     background-color: #78b075;
 }
-
 .footer h3 {
     margin-top: 0;
     margin-bottom: 12px;
     font-weight: bold;
     font-size: 16px;
 }
-
 .footer ul {
     padding: 0;
     list-style: none;
@@ -337,17 +336,14 @@ button {
     font-size: 14px;
     margin-bottom: 0;
 }
-
 .footer ul a {
     color: inherit;
     text-decoration: none;
     opacity: 0.6;
 }
-
 .footer ul a:hover {
     opacity: 0.8;
 }
-
 .footer .item>a {
     font-size: 20px;
     width: 36px;
@@ -361,18 +357,15 @@ button {
     opacity: 0.75;
     margin: 0 2px;
 }
-
 .footer .item.social>a:hover {
     opacity: 0.9;
 }
-
 .input {
     padding: 6px 18px;
     border-radius: 20px;
     border: none;
     margin-right: 10px;
 }
-
 .button-for-footer {
     padding: 6px 18px;
     outline: none;
@@ -383,39 +376,31 @@ button {
     align-self: center;
     cursor: pointer;
 }
-
 .button-for-footer:hover {
     background-color: #b6a2ec;
 }
-
 .button-for-footer:active {
     background-color: #9e32f0;
     box-shadow: 0 5px #5fd7df;
     transform: translateY(4px);
 }
-
 .copyright {
     position: relative;
     bottom: -14px;
     text-align: center;
     letter-spacing: 1px;
 }
-
 .footer {
     border: 1px solid #48CAE4;
 }
 
-
 /* Styling footer ends*/
 
-
 /* Media query footer starts*/
-
 @media (max-width:768px) {
     .ic {
         margin: 8px 2px;
     }
 }
-
 
 /* Media query footer ends*/
