@@ -111,16 +111,23 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
     font-family: "Zilla Slab", serif;
 }
 .card {
-    border-radius: 20px;
-    background: #eeeeee; 
-    box-shadow: 20px 20px 60px #78b075, -20px -20px 60px #ffffff;
-    border: none
+  border-radius: 20px;
+  background: #eeeeee;
+  box-shadow: 20px 20px 60px #d2f1d2, -20px -20px 60px #eeeeee;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  border-radius: 10px;
+  transform: scale(1.1);
+  box-shadow: 20px 20px 60px #a2dbe5, -20px -20px 60px #e9e9ec;
 }
 
 .card img {
     border-radius: 50%;
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
-    box-shadow: 20px 20px 60px #78b075, -20px -20px 60px #ffffff
+    box-shadow: 20px 20px 60px #8ed3c3, -10px -10px 50px #9edfe0
 }
 
 .neo-button {
