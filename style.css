@@ -284,6 +284,9 @@ button {
   .custom-button {
     padding: 0.25em 0.75em;
   }
+  .nav-link {
+    padding-left: 8.2px !important;
+  }
 }
 
 .subscribe-button{
@@ -431,6 +434,9 @@ button {
  }
  .nav-item {
   display: none;
+ }
+ .nav-link {
+  padding-left: 20px !important;
  }
 }
 
