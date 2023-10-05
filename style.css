@@ -85,7 +85,6 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
 .nav_link{
   color: #000;
   font-size: 1.1rem;
-  padding-left: 20px;
   transition: .2s ease-in-out;
 }
 
