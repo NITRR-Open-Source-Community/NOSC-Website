@@ -53,7 +53,7 @@ git clone https://github.com/<your_name>/NOSC-Website.git
 
 ```
 
-cd NOSCC-Website
+cd NOSC-Website
 
 ```
 
