@@ -2,12 +2,12 @@
     position: fixed;
     right: 20px;
     margin-top: 20px;
-    color: blue;
+    color:blue;
     background-color: skyblue;
     border-radius: 20px;
     padding: 4px 12px;
     cursor: pointer;
-    border: 2px solid skyblue;
+    border: 2px solid rgb(0, 0, 0);
 }
 .register-box{
     display: flex;
