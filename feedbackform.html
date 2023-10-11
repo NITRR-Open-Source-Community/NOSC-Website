@@ -61,7 +61,7 @@
     </head>
     <body>
         <h1>EVENT FEEDBACK FORM😊😒😁</h1>
-    <form action="https://nosc.netlify.app/events" //method="POST">
+    <form action="/submit-feedback" method="POST" id="feedback-form">
         <label for="event">Event Name:</label>
         <input type="text" id="event" name="event" required>
         
@@ -81,7 +81,7 @@
         <p>What suggestions do you have for improvement?</p>
         <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
         
-        <input type="submit" value="Submit" href="">
+        <input type="submit" value="Submit" >
     </form>
     <script>
         document.getElementById("feedback-form").addEventListener("submit", function (e) {
