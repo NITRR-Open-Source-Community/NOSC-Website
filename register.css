@@ -3,12 +3,25 @@
     right: 20px;
     margin-top: 20px;
     color: blue;
-    background-color: skyblue;
+    background: rgb(17, 84, 176);
     border-radius: 20px;
     padding: 4px 12px;
     cursor: pointer;
     border: 2px solid skyblue;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 1;
 }
+.reg-btn  a {
+    color: rgb(255, 255, 255)
+}
+.reg-btn:hover {
+    background: transparent;
+}
+.reg-btn:hover a {
+    color: rgb(0, 0, 0);
+}
+
 .register-box{
     display: flex;
     flex-direction: column;
