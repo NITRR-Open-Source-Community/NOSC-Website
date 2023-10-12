@@ -22,19 +22,6 @@
     width: 100vw;
     background-size: cover;
 }
-
-/* .reg-box{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 15%;
-    top: 15%;
-    border: 5px solid skyblue;
-    border-radius: 20px;
-    padding: 20px 50px;
-    font-weight: bold;
-} */
-
 .reg-box {
     position: absolute;
     display: flex;
