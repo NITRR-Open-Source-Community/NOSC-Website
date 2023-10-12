@@ -41,7 +41,7 @@ If you're not comfortable with the command line, [here are tutorials using GUI t
 
 
 
-**2.** Clone your forked copy of the project.
+**2.** Use Git CMD to clone your forked copy of the project.
 
 ```
 
