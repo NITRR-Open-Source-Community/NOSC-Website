@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif
+    font-family: 'Noto Sans', sans-serif;
+    /* overflow-x: hidden; */
 }
 body{
     background-color: #CAF0F8;
     /* position: relative; */
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -531,4 +533,65 @@ p {
 
 .user img:hover {
   box-shadow: 0 0 50px #78b075; 
+}
+
+
+/* Scroll animation */
+
+section .animate{
+  transition: 2s;
+}
+
+.sec-1 .animate{
+  transform: translateX(100%);
+  transition: 2s;
+}
+
+.sec-1.show-animate .animate{
+  transform: translateX(0);
+  transition: 2s;
+}
+
+.sec-2 .animate{
+  transform: translateX(-100%);
+}
+
+.sec-2.show-animate .animate{
+  transform: translateX(0);
+}
+
+.sec-3 .animate{
+  transform: translateX(200%);
+  transition: 4s;
+}
+
+.sec-3.show-animate .animate{
+  transform: translateX(0);
+  transition: 5s;
+}
+
+.sec-4 .animate{
+  opacity: .5;
+  transition-delay: calc(.1s * var(--i));
+}
+
+.sec-4.show-animate .animate{
+ opacity: 1;
+ transition-delay: calc(.03s * var(--i));
+}
+
+
+@media screen and (max-width: 468px) {
+  .sec-1 .animate{
+    transform: translateX(0);
+  }
+  .sec-2 .animate{
+    transform: translateX(0);
+  }
+  .sec-3 .animate{
+    transform: translateX(0);
+  }
+  .sec-4 .animate{
+    opacity: 1;
+  }
 }
