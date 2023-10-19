@@ -595,3 +595,8 @@ section .animate{
     opacity: 1;
   }
 }
+@media screen and (max-width: 530px) {
+  .image-container{
+    display: block;
+  }
+  }
