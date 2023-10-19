@@ -9,6 +9,7 @@
     cursor: pointer;
     border: 2px solid rgb(0, 0, 0);
 }
+
 .register-box{
     display: flex;
     flex-direction: column;
@@ -20,17 +21,22 @@
     width: 100vw;
     background-size: cover;
 }
-.reg-box{
+.reg-box {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    position: fixed;
-    right: 15%;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(135, 207, 235, 0.5);
     border: 5px solid skyblue;
     border-radius: 20px;
     padding: 20px 50px;
     font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
+
 .reg-box div{
     text-align: center;
     font-weight: bold;

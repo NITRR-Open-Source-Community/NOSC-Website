@@ -198,3 +198,20 @@ class HoverButton {
 }
 const btn1 = document.getElementById("logo-hover");
 new HoverButton(btn1);
+
+
+// Scrolling animation  
+let Sections = document.querySelectorAll('section');
+window.onscroll = () => {
+  Sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 50;
+    let height = sec.offsetHeight;
+
+    if (top >= offset && top < offset + height) {
+      sec.classList.add('show-animate');  
+    } else {
+      sec.classList.remove('show-animate');
+    }
+  })
+}
