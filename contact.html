@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+        <link rel="stylesheet" href="./contact.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/57b10b301b.js" crossorigin="anonymous"></script>
@@ -126,51 +127,47 @@
       
         </div>
     </nav>
-    <div>
-        <div class="contact">
-            <h1>Contact Us</h1>
+
+<section>
+    <div class="contactus-parentdiv">
+        <div class="contacus-leftchild">
+            <h2>Contact Us</h2>
+            <p>Need to get in touch with us? Fill out the form with your enquiry, Our team will get back to you.</p>
         </div>
-        <div class="container">
-            <div class="chat-box">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="fname">First Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="fname" name="fname" placeholder="Your First Name">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="lname">Last Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="lname" name="lname" placeholder="Your Last Name">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="feedback">Message/Suggestion</label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="feedback" name="feedback" placeholder="Write something.."
-                            style="height:200px"></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                </div>
-            </div>
+        <div class="contactus-rightchild">
+            <form>
+                <div style="display: flex; flex-direction: row; ">
+<div style="display: flex;flex-direction: column;margin: 10px;">
+    
+        <label>First Name</label>
+        <input class="contactus-input"  name="fName" style="width: 220px;"> </input>
+    </div>
+    <div style="display: flex;flex-direction: column;margin: 10px;">
+    
+        <label>Last Name</label>
+        <input class="contactus-input" name="sName" style="width: 220px;"> </input>
+    </div>
+</div>
+
+<div style="width: 480px;">
+    <div style="display: flex;flex-direction: column;margin: 10px;">
+    
+        <label>Email</label>
+        <input class="contactus-input" name="email" > </input>
+    </div>
+</div>
+<div style="display: flex;flex-direction: column;margin: 10px;width:460px;">
+<label>What can we help you with ?</label>
+<input class="contactus-input" name="comment" /></div>
+    <div style="width: 100%;">
+<button class="contactbtn" style="margin-left: 40%;">Submit</button>
+</div>
+            </form>
         </div>
     </div>
+</section>
+
+    
           <footer class="footer">
         <div class="container">
           <div class="f-row">
