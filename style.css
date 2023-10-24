@@ -168,7 +168,7 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
     box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
 }
 button {
-    background: linear-gradient(145deg, white, rgb(45, 117, 217));
+    background: linear-gradient(145deg, rgb(122, 129, 255), rgb(24, 35, 252));
     background-color:black;
     transition: 0.7s;
 }
