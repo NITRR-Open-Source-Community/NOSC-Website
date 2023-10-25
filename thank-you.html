@@ -1,13 +1,53 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="2;url=index.html"> 
-    <title>Thank You</title> 
+    <title>Thank You for Your Feedback</title> 
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, turquoise, yellow);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #ff55ff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p.additional-info {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <h1>Thank You for Your Feedback!</h1>
-    <p>You will be redirected to the homepage shortly.</p>
+    <div class="container">
+        <h1>Thank You for Your Feedback!</h1>
+        <p>You will be redirected to the homepage shortly.</p>
+        <p class="additional-info">Your valuable feedback helps us improve our events and provide you with a better experience in the future.</p>
+    </div>
 </body>
 </html>
