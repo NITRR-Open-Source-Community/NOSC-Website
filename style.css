@@ -570,7 +570,7 @@ section .animate{
   transition: 5s;
 }
 
-.sec-4 .animate{
+/* .sec-4 .animate{
   opacity: .5;
   transition-delay: calc(.1s * var(--i));
 }
@@ -578,7 +578,7 @@ section .animate{
 .sec-4.show-animate .animate{
  opacity: 1;
  transition-delay: calc(.03s * var(--i));
-}
+} */
 
 
 @media screen and (max-width: 468px) {
