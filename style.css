@@ -112,10 +112,58 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
     font-size: 25px;
     font-family: "Zilla Slab", serif;
 }
+
+/* Registration button css */
+.reg-btn
+{
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid 1px rgb(201, 255, 201);
+  border-radius: 2px;
+  background: linear-gradient(rgb(135, 176, 237),rgb(93, 127, 179));
+}
+.reg-btn a
+{
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+.reg-btn:hover
+{
+  transition: all 0.1s ease-in-out;
+  box-shadow: none;
+  padding: 10px 25px 10px 20px;
+  box-shadow:  0px 0px 10px 0.5px rgb(143, 242, 255);
+
+}
+.reg-btn::after
+{
+  content: '>';
+  
+}
+.reg-btn:hover::after
+{
+  content: '>';
+  padding-left: 10px;
+  
+}
+.reg-btn a:hover
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
 .card {
   border-radius: 20px;
   background: #eeeeee;
-  box-shadow: 20px 20px 60px #d2f1d2, -20px -20px 60px #eeeeee;
+  box-shadow: 0px 0px 20px 1px #daedda, -20px -20px 60px #eeeeee;
   border: none;
   transition: transform 0.3s ease-in-out;
 }
@@ -129,7 +177,7 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
 .card img {
     border-radius: 50%;
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
-    box-shadow: 20px 20px 60px #8ed3c3, -10px -10px 50px #9edfe0
+    box-shadow: 20px 20px 60px #8ed3c3, -10px -10px 50px #9edfe0;
 }
 
 .neo-button {
@@ -542,6 +590,16 @@ section .animate{
   transition: 2s;
 }
 
+.sec-1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:linear-gradient(rgba(226, 255, 226, 0.493),rgba(214, 239, 255, 0.422));
+  padding-top: 50px;
+}
+
 .sec-1 .animate{
   transform: translateX(100%);
   transition: 2s;
@@ -565,7 +623,7 @@ section .animate{
   transition: 4s;
 }
 
-.sec-3.show-animate .animate{
+/* .sec-3.show-animate .animate{
   transform: translateX(0);
   transition: 5s;
 }
@@ -573,7 +631,7 @@ section .animate{
 .sec-4 .animate{
   opacity: .5;
   transition-delay: calc(.1s * var(--i));
-}
+} */
 
 .sec-4.show-animate .animate{
  opacity: 1;
