@@ -35,6 +35,11 @@
 .reg-box input{
     border-radius: 10px;
     padding: 2px 5px;
+    border: 1px solid #AEEABB;
+    outline: none;
+}
+.reg-box input:focus {
+  border: 3px solid #AEEABB;
 }
 .btnn{
     align-items: center;
