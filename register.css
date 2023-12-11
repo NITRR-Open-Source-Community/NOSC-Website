@@ -1,23 +1,16 @@
-
-
 .register-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url('./DevelopersPic.jpg');
-    height: 90vh;
-    overflow: hidden;
     width: 100vw;
+    padding: 30px;
     background-size: cover;
 }
 .reg-box {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     background-color: rgba(135, 207, 235, 0.5);
     border: 5px solid rgb(2, 2, 2);
     border-radius: 20px;
