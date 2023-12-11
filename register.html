@@ -69,7 +69,7 @@
 
       <label for="number">Phone Number</label>
       <input type="number" placeholder="XXXXXXXXXX" id="phone" />
-      <p id="vnumber" class="text-danger fs-1 m-0 p-0 d-none" style="font-size: 11px;">min length is 8</p>
+      <p id="vnumber" class="text-danger fs-1 m-0 p-0 d-none" style="font-size: 11px;">enter a valid phone no</p>
 
       <label for="pswrd">Password</label>
       <input type="password" placeholder="**********" id="pswrd" />
@@ -201,7 +201,7 @@
     }
   }
   function phoneValidation() {
-    if ((/^\d{8,}$/gm).test(phone.value)) {
+    if ((/^\d{10,}$/gm).test(phone.value)) {
       vnumber.classList.add("d-none");
       vnumber.classList.remove("d-block");
     }
