@@ -35,3 +35,19 @@
         display: none;
        } */
 }
+
+.bttn{
+     transition-duration: 0.3s;
+}
+.bttn.hover{
+    transition: all 0.1s ease-in-out;
+    box-shadow: none;
+    padding:1.5px 2px 1.5px 2px;
+    box-shawdow: 0px 0px 10px 0.5px rgb(154,230,240);
+}
+
+.bttn{
+    align-self: centre;
+    border-radius:15%;
+    border-color: antiqewhite;
+}
