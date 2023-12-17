@@ -539,7 +539,7 @@ p {
         font-size: x-large;
     }
     #butwhy{
-      font-size: 20px;
+      margin:0;
     }
 }
 
@@ -657,4 +657,25 @@ section .animate{
   .image-container{
     display: block;
   }
+  #butwhy{
+    font-size: 18px;
+  }
+  p{
+    font-size: 13px;
+  }
+  .aim ul li{
+    font-size: 13px;
+    margin: 10px 30px;
+  }
+  .aim ul{
+    margin-top:10px;
+  }
+  ul{
+    font-size: 13px;
+  }
+  }
+  @media screen and (max-width: 408px){
+    p{
+      margin:0 38px;
+    }
   }
