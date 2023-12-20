@@ -122,9 +122,10 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
   margin-top: 50px;
   margin-bottom: 50px;
   border: solid 1px rgb(201, 255, 201);
-  border-radius: 2px;
+  border-radius: 30px;
   background: linear-gradient(rgb(135, 176, 237),rgb(93, 127, 179));
 }
+
 .reg-btn a
 {
   color: black;
@@ -132,6 +133,7 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
   text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
+
 .reg-btn:hover
 {
   transition: all 0.1s ease-in-out;
@@ -140,25 +142,12 @@ text-shadow: 4px 3px 8px rgb(4, 4, 102);
   box-shadow:  0px 0px 10px 0.5px rgb(143, 242, 255);
 
 }
-.reg-btn::after
-{
-  content: '>';
-  
-}
-.reg-btn:hover::after
-{
-  content: '>';
-  padding-left: 10px;
-  
-}
+
 .reg-btn a:hover
 {
   text-decoration: none;
   color: black;
 }
-
-
-
 
 .card {
   border-radius: 20px;
@@ -320,8 +309,8 @@ button {
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
   touch-action: manipulation;
 }
 
