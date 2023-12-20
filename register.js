@@ -120,3 +120,81 @@ function setSuccessMsg(input){
     const formControl = input.parentElement;
     formControl.className = "form-control success";
 }
+
+
+// Form Validation
+
+  let vname = document.getElementById('vname');
+  let vemail = document.getElementById('vemail');
+  let vnumber = document.getElementById('vnumber');
+  let phone = document.getElementById('number');
+  let vpswrd = document.getElementById('vpswrd');
+  let vconfpswrd = document.getElementById('vconfpswrd');
+
+  let registerBtn = document.getElementById('registerBtn');
+
+  username.addEventListener("input", nameValidation);
+  email.addEventListener("input", emailValidation);
+  phone.addEventListener("input", phoneValidation);
+  password.addEventListener("input", pswrdValidation);
+  cpassword.addEventListener("input", confpswrdValidation);
+
+  registerBtn.addEventListener("click", registerBtnValidation);
+
+  function nameValidation() {
+    if (username.value === '') {
+      vname.classList.add("d-block");
+      vname.classList.remove("d-none");
+    }
+    else {
+      vname.classList.add("d-none");
+      vname.classList.remove("d-block");
+    }
+  }
+  function emailValidation() {
+    if ((/[a-z0-9]+@[a-z]+\.[a-z]{2,3}/gm).test(email.value)) {
+      vemail.classList.add("d-none");
+      vemail.classList.remove("d-block");
+    }
+    else {
+      vemail.classList.add("d-block");
+      vemail.classList.remove("d-none");
+    }
+  }
+  function phoneValidation() {
+    if ((/^\d{10,}$/gm).test(phone.value)) {
+      vnumber.classList.add("d-none");
+      vnumber.classList.remove("d-block");
+    }
+    else {
+      vnumber.classList.add("d-block");
+      vnumber.classList.remove("d-none");
+    }
+  }
+  function pswrdValidation() {
+    if ((/^.{8,}$/gm).test(password.value)) {
+      vpswrd.classList.add("d-none");
+      vpswrd.classList.remove("d-block");
+    }
+    else {
+      vpswrd.classList.add("d-block");
+      vpswrd.classList.remove("d-none");
+    }
+  }
+  function confpswrdValidation() {
+    if (cpassword.value !== password.value) {
+      vconfpswrd.classList.add("d-block");
+      vconfpswrd.classList.remove("d-none");
+    }
+    else {
+      vconfpswrd.classList.add("d-none");
+      vconfpswrd.classList.remove("d-block");
+    }
+  }
+  function registerBtnValidation() {
+    nameValidation();
+    emailValidation();
+    phoneValidation();
+    pswrdValidation();
+    confpswrdValidation();
+  }
