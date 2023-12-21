@@ -1,0 +1,45 @@
+/* Add this to your existing style.css or create a new one */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Adjust the height of the logo */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Main Content Styles */
+.container {
+    padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    padding: 30px 0;
+}
+
+.f-logo {
+    max-width: 100px; /* Adjust the width of the footer logo */
+}
+
+/* Add more styles as needed */
+
