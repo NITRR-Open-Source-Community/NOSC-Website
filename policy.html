@@ -1,39 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.png" type="image/png" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <script
-      src="https://kit.fontawesome.com/57b10b301b.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Lobster&family=Lora:ital@0;1&family=Noto+Serif:ital@1&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap"
-      rel="stylesheet"
-    />
     <title>NOSC - Privacy & Policy</title>
-  </head>
-  <body>
+    <style>
+        /* Add your custom styles here */
+
+        /* Navbar Styles */
+        nav.navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand img {
+            max-height: 50px;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .main-heading {
+            font-size: 2.5em;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        /* Main Content Styles */
+        .container {
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .sub-heading {
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        /* Footer Styles */
+        footer.footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 30px 0;
+        }
+
+        .f-logo {
+            max-width: 100px;
+        }
+
+        .f-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .f-col {
+            flex: 1;
+            margin-bottom: 20px;
+        }
+
+        .f-social-icons button {
+            margin-right: 10px;
+        }
+
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
     <section>
         <nav class="navbar navbar-expand-lg" id="nav">
             <a class="navbar-brand" href="index.html">
@@ -86,8 +143,8 @@
         </ul>
 
         <h2 class="sub-heading">How We Use Your Information</h2>
-        <p>We use the information we collect for the following purposes:</p>
-        <ul>
+        <p>We use the information we collect for the following purposes: </p>
+        <ul >
             <li>Providing regular updates on upcoming events, hackathons, internships, and more.</li>
             <li>Hosting engaging webinars hosted by industry experts to offer guidance on trending skills and technologies.</li>
             <li>Conducting frequent community meetings to address students' inquiries and concerns.</li>
